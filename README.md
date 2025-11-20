@@ -77,4 +77,9 @@ script.js       → Scroll animations and interactions
 
  Outcome
 
+
 This portfolio website serves as a professional online identity, helping to present personal achievements, skills, and project experience in an organized and impactful manner. It is suitable for job applications, interviews, and client presentations.
+
+*Completed on:* 20/11/2025  
+*Live Website:* https://purushottamsalian.github.io/Purushottam-Salian/
+*Repository:* https://github.com/purushottamsalian/Purushottam-Salian
