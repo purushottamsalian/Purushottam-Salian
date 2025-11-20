@@ -3,9 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Purushottam Salian Portfolio</title>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+
+<body class="antialiased">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="#hero" class="logo">P.Salian</a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button id="menu-button" class="menu-button">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="mobile-menu container">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero" class="container">
+            <div class="hero-text">
+                <p style="font-size: 1.125rem; color: var(--color-primary); margin-bottom: 0.75rem;">Hello, I'm</p>
+                <h1>Purushottam Salian</h1>
+                <h2>Full-Stack Developer & test Enginner</h2>
+                <p>I build scalable, secure, and performant web applications, focusing on intuitive UX and robust backend architecture.</p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">
+                        View My Work
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+
+                    <a href="mailto:alex.johnson@example.com" class="btn-secondary">
+                        <i data-lucide="mail"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-illustration">
+                <div>
+                    <svg style="width: 66%; height: 66%; color: rgba(79, 70, 229, 0.7);" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M12 18H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7" />
+                        <path d="M14 22l3-3 3 3" />
+                        <path d="M22 17l-3-3-3 3" />
+                        <path d="M9 13a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" />
+                        <path d="M3 21v-2c0-2 2-4 4-4h4" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container">
+            <h3 class="section-title">About Me</h3>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p>I am a full-stack engineer with 7+ years of experience designing applications across industries.</p>
+                    <p>I work with React, Node.js, TypeScript, Python, and Go. I love building scalable, high-performance systems.</p>
+                    <p>Currently exploring serverless architecture and CI/CD workflows.</p>
+                </div>
+
+                <div class="key-details rounded-lg shadow">
+                    <h4><i data-lucide="sparkles"></i> Key Details</h4>
+                    <ul>
+                        <li><span>Role:</span> Full-Stack Developer</li>
+                        <li><span>Location:</span> Remote / Mumbai</li>
+                        <li><span>Focus:</span> Scalability & Performance</li>
+                        <li><span>Email:</span> purushottamsalian19@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <h3 class="section-title">Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card shadow"><i data-lucide="figma"></i><p>React / Next.js</p></div>
+                <div class="skill-card shadow"><i data-lucide="server"></i><p>Node.js / Express</p></div>
+                <div class="skill-card shadow"><i data-lucide="type"></i><p>TypeScript</p></div>
+                <div class="skill-card shadow"><i data-lucide="database"></i><p>PostgreSQL / Mongo</p></div>
+                <div class="skill-card shadow"><i data-lucide="cloud"></i><p>AWS / Serverless</p></div>
+                <div class="skill-card shadow"><i data-lucide="layout-grid"></i><p>CSS / SASS</p></div>
+                <div class="skill-card shadow"><i data-lucide="git-branch"></i><p>Git / GitHub</p></div>
+                <div class="skill-card shadow"><i data-lucide="cpu"></i><p>Docker / Kubernetes</p></div>
+                <div class="skill-card shadow"><i data-lucide="test-tube-2"></i><p>Testing (Jest)</p></div>
+                <div class="skill-card shadow"><i data-lucide="bar-chart-3"></i><p>CI/CD</p></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h3 class="section-title">Featured Projects</h3>
+            <div class="projects-grid">
+
+                <div class="project-card shadow">
+                    <h4>FinTech Dashboard</h4>
+                    <p class="description">Real-time data visualization platform for analysts.</p>
+                    <div class="tech-tags">
+                        <span>React</span><span>Node.js</span><span>PostgreSQL</span><span>D3.js</span>
+                    </div>
+                    <p class="details">High-availability API + dynamic UI handling 10k+ streams.</p>
+                    <a href="#"><i data-lucide="external-link"></i> Case Study</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h3 class="section-title">Contact</h3>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p>Feel free to reach out for projects, collaborations, or just a friendly hello!</p>
+                    <div class="contact-item"><i data-lucide="mail"></i> purushottamsalian19@gmail.com</div>
+
+                    <div class="social-links">
+                        <a><i data-lucide="github"></i></a>
+                        <a><i data-lucide="linkedin"></i></a>
+                        <a><i data-lucide="twitter"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <label>Name</label>
+                    <input type="text" required>
+
+                    <label>Email</label>
+                    <input type="email" required>
+
+                    <label>Message</label>
+                    <textarea rows="4" required></textarea>
+
+                    <button class="btn-submit">Send</button>
+                    <div id="message-box"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Purushottam Salian. All rights reserved.</p>
+    </footer>
+
+    <!-- JS File -->
+    <script src="script.js"></script>
 </body>
 </html>
